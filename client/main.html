@@ -1,0 +1,26 @@
+<head>
+    <title>TechChapsPortal-Portal</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="shortcut icon" href="/images/logo.svg">
+</head>
+<template name="basic"> 
+    {{> meteorisFlash}}
+    <div class="meteoris-content">
+        <!--{{>yield region="templateBasicHeader"}}-->
+        {{> stickyNav}}
+        {{> templateBasicHeader}}
+        {{> status}}
+        {{>yield}}
+    </div>
+    <!--{{>yield region="templateBasicFooter"}}-->
+    {{> templateBasicFooter}}
+</template>
+
+
+
+
+
+
+
+

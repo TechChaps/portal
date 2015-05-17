@@ -1,0 +1,20 @@
+<template name="sitesIndex">
+    <div class="container">
+        <!--Breadcrumbs-->
+        <ol class="breadcrumb">
+            <li><a href="{{pathFor 'sitesIndex'}}">{{_ "Home"}}</a></li>            
+            <li class="active">{{_ "index"}}</li>
+        </ol>
+        
+        <h2>{{welcomeMessage}}</h2>
+        
+        <div class="alert alert-success">Welcome!  You have logged into techChaps Apps Portal.
+        </div>
+        
+        <p>You can check the <a href="{{pathFor 'postsIndex'}}">Posts</a> demo.
+        </p>
+
+        <p>Feel free to contact us; or report issues at <a href="https://github.com/TechChaps/portal" target="_blank">https://github.com/TechChaps/portal</a>
+        </p>
+    </div>
+</template>
